@@ -12,7 +12,7 @@ isbank payment gateway for [Bagisto Laravel ecommerce](https://bagisto.com/)
 ## Installation
 
 ```
-composer require aghaeian/laravel-pos-isbank
+composer require aghaeian/laravel-pos-ziraat
 ```
 
 - Run these commands below to complete the setup
