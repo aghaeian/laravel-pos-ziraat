@@ -26,6 +26,10 @@ class ziraatServiceProvider extends ServiceProvider
         $this->loadTranslationsFrom(__DIR__ . '/../Resources/lang', 'ziraat');
 
         $this->loadViewsFrom(__DIR__ . '/../Resources/views', 'ziraat');
+			
+        $this->publishes([
+            __DIR__ . '/../Resources/assets' => public_path('/vendor/aghaeian/ziraat/assets'),
+        ], 'iyzico');
 
     }
  
