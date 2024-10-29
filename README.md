@@ -12,7 +12,7 @@ ziraat payment gateway for [Bagisto Laravel ecommerce](https://bagisto.com/)
 ## Installation
 
 ```
-composer require aghaeian/laravel-pos-ziraat
+composer require aghaeian/laravel-pos-ziraat:dev-main
 ```
 
 - Run these commands below to complete the setup
