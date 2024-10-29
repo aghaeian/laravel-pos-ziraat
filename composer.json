@@ -1,0 +1,32 @@
+{
+	"name": "aghaeian/laravel-pos-ziraat",
+	"type": "library",
+	"description": "ziraat payment gateway for bagisto",
+	"keywords": ["payment gateway", "payment", "bagisto", "ziraat", "ziraat"],
+	"homepage": "https://github.com/Aghaeian/laravel-pos-ziraat",
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"authors": [
+		{
+			"name": "Hamed Aghaeian Chelghaei",
+			"email": "aghaieyan@gmail.com",
+			"homepage": "https://github.com/Aghaeian"
+		}
+	],
+	"require-dev": {
+		"phpunit/phpunit": "~4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"aghaeian\\ziraat\\": "src/"
+		}
+	},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "aghaeian\\ziraat\\Providers\\ziraatServiceProvider"
+      ],
+      "aliases": {}
+    }
+  }
+}
