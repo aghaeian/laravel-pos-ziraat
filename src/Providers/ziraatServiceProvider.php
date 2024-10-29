@@ -29,7 +29,7 @@ class ziraatServiceProvider extends ServiceProvider
 			
         $this->publishes([
             __DIR__ . '/../Resources/assets' => public_path('/vendor/aghaeian/ziraat/assets'),
-        ], 'iyzico');
+        ], 'ziraat');
 
     }
  
